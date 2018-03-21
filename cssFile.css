@@ -1,0 +1,24 @@
+h2{
+    color: blue;
+}
+
+input{
+    padding: 11px 19px;
+    margin: 9px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF5A;
+    color: white;
+    padding: 15px 19px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a040;
+}
