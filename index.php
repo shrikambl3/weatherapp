@@ -18,7 +18,7 @@ if ($url == '') {
         function lodeGraph(responseData, div) {
             var dps = [];
             if (div == 'API') {
-                var displayText = "Forecasts from API of assig 2";
+                var displayText = "Forecasts from API created by me";
                 var displaySubText = "For the Five Days after given date";
             } else {
                 var displayText = "Forecasts from Weather Underground";
@@ -150,7 +150,7 @@ if ($url == '') {
     </script>
 </head>
 
-<body align="center" style="background-color: #f0f0f5;">
+<body align="center" style="background-color: #f0f0f5;background-size: cover;" background="1.jpg">
     <h2>Plot the Forecasts for the next five days</h2> Enter the date in YYYYMMDD format :
     <input type="text" name="enterdate" placeholder="YYYYMMDD" id="enterdate"><br>
     <button type="button" onclick="loadDoc()">Plot data</button>
